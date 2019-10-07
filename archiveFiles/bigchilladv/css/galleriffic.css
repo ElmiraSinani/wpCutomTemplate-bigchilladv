@@ -1,0 +1,206 @@
+.gal-wrap {
+	margin:0 0 40px 0;
+	background:#141414;}
+	
+.gal-content{
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: block;
+	float: left;
+	width: 660px; 
+}
+.gal-right {
+	width:288px;
+	float:left;
+	padding:10px 0 0 12px;
+	position:relative;
+	background:#141414;}
+	
+.gal-nav {
+	width:288px;	
+}
+.gal-content a, .gal-nav a {
+	text-decoration: none;
+	color: #777;
+}
+.gal-content a:focus, .gal-content a:hover, .gal-content a:active {
+	text-decoration: underline;
+}
+.controls {
+	position:absolute;
+	bottom:0px;
+	right:20px;
+}
+.controls a {
+	color:#ccc
+}
+.controls a:hover {
+	color:#fff}
+
+.ss-controls {
+	float: right;
+	line-height:16px;
+	margin:0 5px
+}
+.nav-controls {
+	float: right;
+}
+.nav-controls .next, .nav-controls .prev {
+	display:inline-block;
+	width:8px;
+	height:13px;
+	overflow:hidden;
+	background:url(../images/gallery_arrows.png) 0 0 no-repeat;
+	text-indent:-100px;
+	margin:0 5px}
+
+.nav-controls .next {
+	background-position:-8px 0}
+.nav-controls .next:hover {
+	background-position:-8px -13px}
+.nav-controls .prev:hover {
+	background-position:0 -13px}
+
+.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 348px; /* This should be set to be at least the height of the largest image in the slideshow */
+	margin:0;
+}
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('../images/loading.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 660px;
+	height: 348px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+.gal-slideshow {}
+.gal-slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.gal-slideshow a.advance-link {
+	display: block;
+	width: 660px;
+	height: 348px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 340px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+}
+.gal-slideshow a.advance-link:hover, .gal-slideshow a.advance-link:active, .gal-slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+.gal-slideshow img {
+	vertical-align: middle;
+}
+.caption-container {}
+
+span.image-caption {
+	display: block;
+	position: absolute;
+}
+.caption {
+	background-color: #000;
+	padding: 12px;
+	color: #ccc;
+}
+.caption .enlarge {
+	position:absolute;
+	top:1.3em;
+	right:1.3em;
+	width:16px;
+	height:16px;
+	text-indent:-500px;
+	overflow:hidden;
+	background:url(../images/icons/icon_enlarge.png) no-repeat}
+	
+.caption a {
+	color: #fff;
+}
+.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.image-desciption {
+	line-height: 1.4em;
+	font-size:13px;
+	font-style:italic;
+	color:#fff;
+	padding:0.3em 2em 0.3em 1em
+}
+
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height:275px;
+	overflow:hidden
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 8px;
+	list-style: none;
+	height:75px;
+	width:75px;
+}
+a.thumb {
+	display: block;
+}
+ul.thumbs li.selected img {
+	border: 1px solid #555;}
+
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: 1px solid #000;
+	display: block;
+	max-height:75px;
+	max-width:75px;
+	margin:0 auto
+}
+ul.thumbs li .caption {
+	display:none;}
+	
+.pagination {
+	clear: both;
+}
+.gal-nav .top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+.gal-nav .bottom {
+	margin-top: 12px;
+}
+.bottom.pagination {
+	border-top:1px solid #924fa1;
+	padding-top:13px;
+	font-size:13px;
+	text-transform:uppercase;
+	position:relative;}
+	
+.pagination a, .pagination span.current, .pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 4px;
+	padding: 1px 4px;
+	color:#ccc;
+	text-decoration: none;
+}
+	
+.pagination a:hover {	
+	color: #fff;
+}
+.pagination span.current {
+	font-weight: bold;
+	color: #a05faf;
+}
+.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}

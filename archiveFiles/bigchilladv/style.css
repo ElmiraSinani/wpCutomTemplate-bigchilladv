@@ -1,0 +1,265 @@
+/*   
+Theme Name: Big Chill Adventure Theme
+Theme URI: http://bigchilladventure.com/
+Description: Wp Theme for Big Chill Adventure
+Author: EWP
+Version: 1
+*/
+
+.slideshow-container img{
+    max-height: 348px;
+    max-width: 660px;
+}
+ul.thumbs img{
+    max-height: 75px;
+    max-width: 75px;
+}
+.form_container, .form_container_full{
+    display: inline-block;
+    width: 100%;
+}
+.form_container .left{
+    width: 60%;
+    float: left;
+}
+.form_container .right{
+    width: 40%;
+    float: right;
+}
+.form_container .formItem,
+.form_container_full .formItem{
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.form_container .formItem label{
+    width: 32%;
+    float: left;
+}
+.form_container_full label{
+    width: 15%;
+    float: left;
+}
+.form_container .formItem input,
+.form_container .formItem textarea{
+    width: 60%;
+    float: left;
+    padding: 10px 1%;
+}
+.form_container .formItem select,
+.form_container_full .formItem select{
+    width: 63%;
+    float: left;
+    padding: 8px 1%;
+    border: 1px solid #dbdbdb !important;
+    border-top: 1px solid #d0cfcf!important;
+    border-bottom: 1px solid #efefef!important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.terms{
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+.terms p{
+    margin: 10px;
+}
+.form_message{
+    margin-top: 20px;
+    padding: 15px;
+    background: #efefef;
+    position: relative;
+}
+.form_message .close{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #f00;
+    font-weight: bold;
+}
+.form_message .success{
+    color: #090;
+}
+.form_message .denger{
+    color: #f07700;
+}
+.pageContent{
+    margin: 20px 0;
+}
+.none{
+    display: none;
+}
+.atractionImg{
+    width: 28%;
+    margin-right: 2%;
+    float: left;
+}
+.atractionTxt{
+    width: 70%;
+    float: left;
+}
+.atraction_content{
+    display: inline-block;
+    width: 100%;
+}
+.header_slider .slide img{
+    width: 100%;
+    height: auto;
+}
+.members_cnt{
+    margin-top: 20px;
+}
+.nextPrevPost{
+    margin: 15px 0;
+    clear: both;
+    color: #00B9F1;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+.nextPrevPost span{
+    padding: 0 10px;
+}
+.newsletter-email{
+    color: #807e7e;
+    width: 232px;
+    margin-bottom: 5px;
+    background: url(../images/input_bg2.png) 0 0 repeat-x #fff;
+    resize: none;
+    font-family: "Sorts Mill Goudy", "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    border: 1px solid #dbdbdb;
+    border-top: 1px solid #d0cfcf;
+    border-bottom: 1px solid #efefef;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 7px 10px 5px 10px;
+    color: #777;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff;
+    -moz-box-shadow: 0px 1px 0px 0px #fff;
+    box-shadow: 0px 1px 0px 0px #fff;
+}
+.newsletter-submit{
+    float: right;
+    display: inline-block;
+    text-shadow: none!important;
+    margin: 0;
+    padding: 0 15px !important;
+    color: #fff !important;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background: #212121;
+    background: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#212121));
+    background: -webkit-linear-gradient(top, #404040, #212121);
+    background: -moz-linear-gradient(top, #404040, #212121);
+    background: -ms-linear-gradient(top, #404040, #212121);
+    background: -o-linear-gradient(top, #404040, #212121);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+}
+.sidebar p{
+    margin: 0 0 10px 0 !important;
+}
+.sidebar .widget {
+  display: inline-block;
+  width: 100%;
+}
+.sidebar .inner{
+    padding: 15px;
+}
+.sidebar .widget-container h3{
+    border: none !important;
+    padding: 0 0 20px 0 !important;
+    color: #000 !important;
+}
+.sidebar .widget-container h3 span, .widget-container h3 span, h3 span{
+    color: #000 !important;
+}
+.sidebar_after_content .widget{
+    width: 28%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+    float: left;
+}
+.sidebar_after_content .widget:last-child{
+    padding-right: 0;
+}
+.summary{
+    display: inline-block;
+    width: 100%;
+}
+.summary .title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.summary .leftSum{
+    width: 70%;
+    float: left;
+}
+.summary .rightSum{
+    width: 25%;
+    float: right;
+    text-align: right
+}
+.summary .rightSum input{
+     text-align: right;
+    color: #000;
+    padding: 5px 0;
+    border: 0;
+    background: none;
+    font-style: normal;
+    font-family: "Arial";
+}
+.summary .label{
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.twitterwidget iframe{
+    height: 180px;
+}
+.twitterwidget iframe img{
+    max-width: 70px !important;
+}
+#accomodation_field{
+    width: 85%;
+    float: left;
+}
+#accomodation_field input[type='text']{
+    width: 63%;
+    float: left;
+    height: 16px;
+}
+#accomodation_field input[type='number']{
+    width: 5%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    height: 16px;
+}
+.accContent{
+    display: inline-block;
+}
+.grid_list .item_img img{
+    max-width: 100% !important;
+    height: 100% !important;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
